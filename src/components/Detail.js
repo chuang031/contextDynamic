@@ -10,7 +10,7 @@ const Detail = () => {
     <div className='details'>
       <img
         src={sign.backgroundImg}
-        alt=''
+        alt={sign.name}
       />
       <h2>{sign.name}</h2>
       <h4>Element: {sign.element} </h4>
